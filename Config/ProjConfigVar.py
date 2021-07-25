@@ -15,13 +15,12 @@ server_address_conf_path = os.path.join(proj_path,"Config", "interface_server_ad
 report_path = os.path.join(proj_path,"Report")
 
 
-
 test_case_sheet = "测试用例"
 test_case_row_no_clo_no = 0
 test_case_test_step_sheet_name_col_no = 2
 test_case_is_executed_col_no = 3
-test_case_executed_result_col_no = 7
-test_case_executed_time_col_no = 8
+test_case_executed_result_col_no = 6
+test_case_executed_time_col_no = 7
 
 test_data_row_no_col_no = 0
 test_data_interface_name_col_no = 1
