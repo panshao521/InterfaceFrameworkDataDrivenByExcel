@@ -1,0 +1,661 @@
+2021-07-25 17:31:09 Log.py[line:30] INFO 获取测试框架的全局唯一数变量值失败，请求的全局唯一数变量是unique_num1,异常原因如下：[Errno 2] No such file or directory: '/Users/panshao/PycharmProjects/InterfaceFrameworkDataDrivenByExcel/Config\\StaticVarDataFile'
+2021-07-25 17:31:09 Log.py[line:30] INFO 获取测试框架的全局唯一数变量值失败，请求的全局唯一数变量是unique_num2,异常原因如下：[Errno 2] No such file or directory: '/Users/panshao/PycharmProjects/InterfaceFrameworkDataDrivenByExcel/Config\\StaticVarDataFile'
+2021-07-25 17:32:13 Log.py[line:30] INFO 获取测试框架的全局唯一数变量值失败，请求的全局唯一数变量是unique_num1,异常原因如下：[Errno 2] No such file or directory: '/Users/panshao/PycharmProjects/InterfaceFrameworkDataDrivenByExcel/Config/StaticVarDataFile'
+2021-07-25 17:32:13 Log.py[line:30] INFO 获取测试框架的全局唯一数变量值失败，请求的全局唯一数变量是unique_num2,异常原因如下：[Errno 2] No such file or directory: '/Users/panshao/PycharmProjects/InterfaceFrameworkDataDrivenByExcel/Config/StaticVarDataFile'
+2021-07-25 17:34:09 Log.py[line:30] INFO 全局唯一数当前生成的值是：100
+2021-07-25 17:34:09 Log.py[line:30] INFO 全局唯一数当前生成的值是：1000
+2021-07-25 17:34:19 Log.py[line:30] INFO 全局唯一数当前生成的值是：100
+2021-07-25 17:34:19 Log.py[line:30] INFO 全局唯一数当前生成的值是：1000
+2021-07-25 17:36:10 Log.py[line:30] INFO 全局唯一数当前生成的值是：101
+2021-07-25 17:36:10 Log.py[line:30] INFO 全局唯一数当前生成的值是：1001
+2021-07-25 17:38:01 Log.py[line:30] INFO 全局唯一数当前生成的值是：102
+2021-07-25 17:38:01 Log.py[line:30] INFO 请求的接口地址是：http://39.106.41.11:8080/register/
+2021-07-25 17:38:01 Log.py[line:30] INFO 请求的数据是：{"username": "wulaoshi102", "password": "123456789abc", "email": "sed@qq.com"}
+2021-07-25 23:30:09 Log.py[line:30] INFO 设定的测试用例sheet名称为：博客api测试
+2021-07-25 23:30:09 Log.py[line:30] INFO 全局唯一数当前生成的值是：103
+2021-07-25 23:30:09 Log.py[line:30] INFO 请求的接口地址是：http://39.100.104.214:8080/register/
+2021-07-25 23:30:09 Log.py[line:30] INFO 请求的数据是：{"username": "testman103", "password": "123456789abc", "email": "sed@qq.com"}
+2021-07-25 23:30:09 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 39.100.104.214:8080
+2021-07-25 23:30:09 connectionpool.py[line:452] DEBUG http://39.100.104.214:8080 "POST /register/ HTTP/1.1" 200 None
+2021-07-25 23:30:09 Log.py[line:30] INFO 接口的响应结果是：{"code": "00", "userid": 14}
+2021-07-25 23:30:09 Log.py[line:30] INFO 断言值为："code": "00"
+2021-07-25 23:31:29 Log.py[line:30] INFO 设定的测试用例sheet名称为：博客api测试
+2021-07-25 23:31:29 Log.py[line:30] INFO 全局唯一数当前生成的值是：104
+2021-07-25 23:31:29 Log.py[line:30] INFO 请求的接口地址是：http://39.100.104.214:8080/register/
+2021-07-25 23:31:29 Log.py[line:30] INFO 请求的数据是：{"username": "testman104", "password": "123456789abc", "email": "sed@qq.com"}
+2021-07-25 23:31:29 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 39.100.104.214:8080
+2021-07-25 23:31:29 connectionpool.py[line:452] DEBUG http://39.100.104.214:8080 "POST /register/ HTTP/1.1" 200 None
+2021-07-25 23:31:29 Log.py[line:30] INFO 接口的响应结果是：{"code": "00", "userid": 15}
+2021-07-25 23:31:29 Log.py[line:30] INFO 断言值为："code": "00"
+2021-07-25 23:31:29 Log.py[line:30] INFO 接口请求的耗时为133 毫秒
+2021-07-25 23:31:29 Log.py[line:30] INFO 从响应中提取的变量名userid，变量值为15
+2021-07-25 23:31:29 Log.py[line:30] INFO 生成全局变量名： global_vars['userid']='15'
+2021-07-25 23:31:29 Log.py[line:30] INFO ------------------------------------------------------------------------------------------------------------------------------------------------------
+2021-07-25 23:31:29 Log.py[line:30] INFO 请求的接口地址是：http://39.100.104.214:8080/login/
+2021-07-25 23:31:29 Log.py[line:30] INFO 请求的数据是：{"username": "testman104", "password": "d266f2f31cf903c870027659030e967e"}
+2021-07-25 23:31:29 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 39.100.104.214:8080
+2021-07-25 23:31:29 connectionpool.py[line:452] DEBUG http://39.100.104.214:8080 "POST /login/ HTTP/1.1" 200 None
+2021-07-25 23:31:29 Log.py[line:30] INFO 接口的响应结果是：{"token": "3980d311891c68ba6d5dae587822c8d0", "code": "00", "userid": 15, "login_time": "2021-07-25 23:31:29"}
+2021-07-25 23:31:29 Log.py[line:30] INFO 断言值为：token
+2021-07-25 23:31:29 Log.py[line:30] INFO 接口请求的耗时为126 毫秒
+2021-07-25 23:31:29 Log.py[line:30] INFO 从响应中提取的变量名token，变量值为3980d311891c68ba6d5dae587822c8d0
+2021-07-25 23:31:29 Log.py[line:30] INFO 生成全局变量名： global_vars['token']='3980d311891c68ba6d5dae587822c8d0'
+2021-07-25 23:31:29 Log.py[line:30] INFO ------------------------------------------------------------------------------------------------------------------------------------------------------
+2021-07-25 23:31:29 Log.py[line:30] INFO 请求的接口地址是：http://39.100.104.214:8080/create/
+2021-07-25 23:31:29 Log.py[line:30] INFO 请求的数据是：{"userid": 15, "token": "3980d311891c68ba6d5dae587822c8d0", "title": "python", "content": "python port test"}
+2021-07-25 23:31:29 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 39.100.104.214:8080
+2021-07-25 23:31:29 connectionpool.py[line:452] DEBUG http://39.100.104.214:8080 "POST /create/ HTTP/1.1" 200 None
+2021-07-25 23:31:29 Log.py[line:30] INFO 接口的响应结果是：{"data": [{"content": "python port test", "title": "python"}], "code": "00", "userid": 15}
+2021-07-25 23:31:29 Log.py[line:30] INFO 断言值为："code": "00"
+2021-07-25 23:31:29 Log.py[line:30] INFO 接口请求的耗时为133 毫秒
+2021-07-25 23:31:29 Log.py[line:30] INFO ------------------------------------------------------------------------------------------------------------------------------------------------------
+2021-07-25 23:31:29 Log.py[line:30] INFO 请求的接口地址是：http://39.100.104.214:8080/getBlogsOfUser/
+2021-07-25 23:31:29 Log.py[line:30] INFO 请求的数据是：{"userid": 15, "token": "3980d311891c68ba6d5dae587822c8d0"}
+2021-07-25 23:31:29 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 39.100.104.214:8080
+2021-07-25 23:31:29 connectionpool.py[line:452] DEBUG http://39.100.104.214:8080 "POST /getBlogsOfUser/ HTTP/1.1" 200 None
+2021-07-25 23:31:29 Log.py[line:30] INFO 接口的响应结果是：{"data": [{"update_time": null, "title": "python", "content": "python port test", "articleId": 5, "owner": 15, "posted_on": "2021-07-25 23:31:29"}], "code": "00", "userid": 15}
+2021-07-25 23:31:29 Log.py[line:30] INFO 断言值为："title": "(\w+)"
+2021-07-25 23:31:29 Log.py[line:30] INFO 接口请求的耗时为126 毫秒
+2021-07-25 23:31:29 Log.py[line:30] INFO 从响应中提取的变量名articleid，变量值为5
+2021-07-25 23:31:29 Log.py[line:30] INFO 生成全局变量名： global_vars['articleid']='5'
+2021-07-25 23:31:29 Log.py[line:30] INFO ------------------------------------------------------------------------------------------------------------------------------------------------------
+2021-07-25 23:31:29 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 39.100.104.214:8080
+2021-07-25 23:31:29 connectionpool.py[line:452] DEBUG http://39.100.104.214:8080 "GET /getBlogContent/5 HTTP/1.1" 200 None
+2021-07-25 23:31:29 Log.py[line:30] INFO 请求的接口地址是：http://39.100.104.214:8080/getBlogContent/5
+2021-07-25 23:31:29 Log.py[line:30] INFO 请求的数据是：5
+2021-07-25 23:31:29 Log.py[line:30] INFO 接口的响应结果是：{"code": "00", "data": [{"update_time": null, "title": "python", "content": "python port test", "articleId": 5, "owner": 15, "posted_on": "2021-07-25 23:31:29"}]}
+2021-07-25 23:31:29 Log.py[line:30] INFO 断言值为："content": "python port test"
+2021-07-25 23:31:29 Log.py[line:30] INFO 接口请求的耗时为131 毫秒
+2021-07-25 23:31:29 Log.py[line:30] INFO ------------------------------------------------------------------------------------------------------------------------------------------------------
+2021-07-25 23:31:29 Log.py[line:30] INFO 请求的接口地址是：http://39.100.104.214:8080/update/
+2021-07-25 23:31:29 Log.py[line:30] INFO 请求的数据是：{"userid": 15, "token": "3980d311891c68ba6d5dae587822c8d0", "articleId": 5, "title": "python", "content": "test test"}
+2021-07-25 23:31:29 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 39.100.104.214:8080
+2021-07-25 23:31:29 connectionpool.py[line:452] DEBUG http://39.100.104.214:8080 "PUT /update/ HTTP/1.1" 200 None
+2021-07-25 23:31:29 Log.py[line:30] INFO 接口的响应结果是：{"articleId": 5, "update_time": "2021-07-25 23:31:29", "code": "00", "userid": 15}
+2021-07-25 23:31:29 Log.py[line:30] INFO 断言值为："update_time": "2019
+2021-07-25 23:31:29 Log.py[line:30] INFO 接口请求的耗时为124 毫秒
+2021-07-25 23:31:29 Log.py[line:30] INFO ------------------------------------------------------------------------------------------------------------------------------------------------------
+2021-07-25 23:31:29 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 39.100.104.214:8080
+2021-07-25 23:31:30 connectionpool.py[line:452] DEBUG http://39.100.104.214:8080 "GET /getBlogContent/5 HTTP/1.1" 200 None
+2021-07-25 23:31:30 Log.py[line:30] INFO 请求的接口地址是：http://39.100.104.214:8080/getBlogContent/5
+2021-07-25 23:31:30 Log.py[line:30] INFO 请求的数据是：5
+2021-07-25 23:31:30 Log.py[line:30] INFO 接口的响应结果是：{"code": "00", "data": [{"update_time": "2021-07-25 23:31:29", "title": "python", "content": "test test", "articleId": 5, "owner": 15, "posted_on": "2021-07-25 23:31:29"}]}
+2021-07-25 23:31:30 Log.py[line:30] INFO 断言值为："content": "test test"
+2021-07-25 23:31:30 Log.py[line:30] INFO 接口请求的耗时为129 毫秒
+2021-07-25 23:31:30 Log.py[line:30] INFO ------------------------------------------------------------------------------------------------------------------------------------------------------
+2021-07-25 23:31:30 Log.py[line:30] INFO 请求的接口地址是：http://39.100.104.214:8080/delete/
+2021-07-25 23:31:30 Log.py[line:30] INFO 请求的数据是：{"userid": 15, "token": "3980d311891c68ba6d5dae587822c8d0", "articleId": [5]}
+2021-07-25 23:31:30 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 39.100.104.214:8080
+2021-07-25 23:31:30 connectionpool.py[line:452] DEBUG http://39.100.104.214:8080 "POST /delete/ HTTP/1.1" 200 None
+2021-07-25 23:31:30 Log.py[line:30] INFO 接口的响应结果是：{"articleId": [5], "code": "00", "userid": 15}
+2021-07-25 23:31:30 Log.py[line:30] INFO 断言值为："code": "00"
+2021-07-25 23:31:30 Log.py[line:30] INFO 接口请求的耗时为116 毫秒
+2021-07-25 23:31:30 Log.py[line:30] INFO ------------------------------------------------------------------------------------------------------------------------------------------------------
+2021-07-25 23:31:30 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 39.100.104.214:8080
+2021-07-25 23:31:30 connectionpool.py[line:452] DEBUG http://39.100.104.214:8080 "GET /getBlogContent/5 HTTP/1.1" 200 None
+2021-07-25 23:31:30 Log.py[line:30] INFO 请求的接口地址是：http://39.100.104.214:8080/getBlogContent/5
+2021-07-25 23:31:30 Log.py[line:30] INFO 请求的数据是：5
+2021-07-25 23:31:30 Log.py[line:30] INFO 接口的响应结果是：{"code": "03", "articleId": "5"}
+2021-07-25 23:31:30 Log.py[line:30] INFO 断言值为：{"code": "03"
+2021-07-25 23:31:30 Log.py[line:30] INFO 接口请求的耗时为131 毫秒
+2021-07-25 23:31:30 Log.py[line:30] INFO ------------------------------------------------------------------------------------------------------------------------------------------------------
+2021-07-25 23:31:43 Log.py[line:30] INFO 设定的测试用例sheet名称为：博客api测试
+2021-07-25 23:31:43 Log.py[line:30] INFO 全局唯一数当前生成的值是：105
+2021-07-25 23:31:43 Log.py[line:30] INFO 请求的接口地址是：http://39.100.104.214:8080/register/
+2021-07-25 23:31:43 Log.py[line:30] INFO 请求的数据是：{"username": "testman105", "password": "123456789abc", "email": "sed@qq.com"}
+2021-07-25 23:31:43 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 39.100.104.214:8080
+2021-07-25 23:31:43 connectionpool.py[line:452] DEBUG http://39.100.104.214:8080 "POST /register/ HTTP/1.1" 200 None
+2021-07-25 23:31:43 Log.py[line:30] INFO 接口的响应结果是：{"code": "00", "userid": 16}
+2021-07-25 23:31:43 Log.py[line:30] INFO 断言值为："code": "00"
+2021-07-25 23:31:43 Log.py[line:30] INFO 接口请求的耗时为136 毫秒
+2021-07-25 23:31:43 Log.py[line:30] INFO 从响应中提取的变量名userid，变量值为16
+2021-07-25 23:31:43 Log.py[line:30] INFO 生成全局变量名： global_vars['userid']='16'
+2021-07-25 23:31:43 Log.py[line:30] INFO ------------------------------------------------------------------------------------------------------------------------------------------------------
+2021-07-25 23:31:43 Log.py[line:30] INFO 请求的接口地址是：http://39.100.104.214:8080/login/
+2021-07-25 23:31:43 Log.py[line:30] INFO 请求的数据是：{"username": "testman105", "password": "d266f2f31cf903c870027659030e967e"}
+2021-07-25 23:31:43 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 39.100.104.214:8080
+2021-07-25 23:31:43 connectionpool.py[line:452] DEBUG http://39.100.104.214:8080 "POST /login/ HTTP/1.1" 200 None
+2021-07-25 23:31:43 Log.py[line:30] INFO 接口的响应结果是：{"token": "f6dbfe9475e507b83de839a3cb9ac314", "code": "00", "userid": 16, "login_time": "2021-07-25 23:31:43"}
+2021-07-25 23:31:43 Log.py[line:30] INFO 断言值为：token
+2021-07-25 23:31:43 Log.py[line:30] INFO 接口请求的耗时为126 毫秒
+2021-07-25 23:31:43 Log.py[line:30] INFO 从响应中提取的变量名token，变量值为f6dbfe9475e507b83de839a3cb9ac314
+2021-07-25 23:31:43 Log.py[line:30] INFO 生成全局变量名： global_vars['token']='f6dbfe9475e507b83de839a3cb9ac314'
+2021-07-25 23:31:43 Log.py[line:30] INFO ------------------------------------------------------------------------------------------------------------------------------------------------------
+2021-07-25 23:31:43 Log.py[line:30] INFO 请求的接口地址是：http://39.100.104.214:8080/create/
+2021-07-25 23:31:43 Log.py[line:30] INFO 请求的数据是：{"userid": 16, "token": "f6dbfe9475e507b83de839a3cb9ac314", "title": "python", "content": "python port test"}
+2021-07-25 23:31:43 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 39.100.104.214:8080
+2021-07-25 23:31:43 connectionpool.py[line:452] DEBUG http://39.100.104.214:8080 "POST /create/ HTTP/1.1" 200 None
+2021-07-25 23:31:43 Log.py[line:30] INFO 接口的响应结果是：{"data": [{"content": "python port test", "title": "python"}], "code": "00", "userid": 16}
+2021-07-25 23:31:43 Log.py[line:30] INFO 断言值为："code": "00"
+2021-07-25 23:31:43 Log.py[line:30] INFO 接口请求的耗时为161 毫秒
+2021-07-25 23:31:43 Log.py[line:30] INFO ------------------------------------------------------------------------------------------------------------------------------------------------------
+2021-07-25 23:31:43 Log.py[line:30] INFO 请求的接口地址是：http://39.100.104.214:8080/getBlogsOfUser/
+2021-07-25 23:31:43 Log.py[line:30] INFO 请求的数据是：{"userid": 16, "token": "f6dbfe9475e507b83de839a3cb9ac314"}
+2021-07-25 23:31:43 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 39.100.104.214:8080
+2021-07-25 23:31:43 connectionpool.py[line:452] DEBUG http://39.100.104.214:8080 "POST /getBlogsOfUser/ HTTP/1.1" 200 None
+2021-07-25 23:31:43 Log.py[line:30] INFO 接口的响应结果是：{"data": [{"update_time": null, "title": "python", "content": "python port test", "articleId": 6, "owner": 16, "posted_on": "2021-07-25 23:31:43"}], "code": "00", "userid": 16}
+2021-07-25 23:31:43 Log.py[line:30] INFO 断言值为："title": "(\w+)"
+2021-07-25 23:31:43 Log.py[line:30] INFO 接口请求的耗时为127 毫秒
+2021-07-25 23:31:43 Log.py[line:30] INFO 从响应中提取的变量名articleid，变量值为6
+2021-07-25 23:31:43 Log.py[line:30] INFO 生成全局变量名： global_vars['articleid']='6'
+2021-07-25 23:31:43 Log.py[line:30] INFO ------------------------------------------------------------------------------------------------------------------------------------------------------
+2021-07-25 23:31:43 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 39.100.104.214:8080
+2021-07-25 23:31:43 connectionpool.py[line:452] DEBUG http://39.100.104.214:8080 "GET /getBlogContent/6 HTTP/1.1" 200 None
+2021-07-25 23:31:43 Log.py[line:30] INFO 请求的接口地址是：http://39.100.104.214:8080/getBlogContent/6
+2021-07-25 23:31:43 Log.py[line:30] INFO 请求的数据是：6
+2021-07-25 23:31:43 Log.py[line:30] INFO 接口的响应结果是：{"code": "00", "data": [{"update_time": null, "title": "python", "content": "python port test", "articleId": 6, "owner": 16, "posted_on": "2021-07-25 23:31:43"}]}
+2021-07-25 23:31:43 Log.py[line:30] INFO 断言值为："content": "python port test"
+2021-07-25 23:31:43 Log.py[line:30] INFO 接口请求的耗时为135 毫秒
+2021-07-25 23:31:43 Log.py[line:30] INFO ------------------------------------------------------------------------------------------------------------------------------------------------------
+2021-07-25 23:31:43 Log.py[line:30] INFO 请求的接口地址是：http://39.100.104.214:8080/update/
+2021-07-25 23:31:43 Log.py[line:30] INFO 请求的数据是：{"userid": 16, "token": "f6dbfe9475e507b83de839a3cb9ac314", "articleId": 6, "title": "python", "content": "test test"}
+2021-07-25 23:31:43 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 39.100.104.214:8080
+2021-07-25 23:31:43 connectionpool.py[line:452] DEBUG http://39.100.104.214:8080 "PUT /update/ HTTP/1.1" 200 None
+2021-07-25 23:31:43 Log.py[line:30] INFO 接口的响应结果是：{"articleId": 6, "update_time": "2021-07-25 23:31:43", "code": "00", "userid": 16}
+2021-07-25 23:31:43 Log.py[line:30] INFO 断言值为："update_time": "2019
+2021-07-25 23:31:43 Log.py[line:30] INFO 接口请求的耗时为158 毫秒
+2021-07-25 23:31:43 Log.py[line:30] INFO ------------------------------------------------------------------------------------------------------------------------------------------------------
+2021-07-25 23:31:43 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 39.100.104.214:8080
+2021-07-25 23:31:44 connectionpool.py[line:452] DEBUG http://39.100.104.214:8080 "GET /getBlogContent/6 HTTP/1.1" 200 None
+2021-07-25 23:31:44 Log.py[line:30] INFO 请求的接口地址是：http://39.100.104.214:8080/getBlogContent/6
+2021-07-25 23:31:44 Log.py[line:30] INFO 请求的数据是：6
+2021-07-25 23:31:44 Log.py[line:30] INFO 接口的响应结果是：{"code": "00", "data": [{"update_time": "2021-07-25 23:31:43", "title": "python", "content": "test test", "articleId": 6, "owner": 16, "posted_on": "2021-07-25 23:31:43"}]}
+2021-07-25 23:31:44 Log.py[line:30] INFO 断言值为："content": "test test"
+2021-07-25 23:31:44 Log.py[line:30] INFO 接口请求的耗时为130 毫秒
+2021-07-25 23:31:44 Log.py[line:30] INFO ------------------------------------------------------------------------------------------------------------------------------------------------------
+2021-07-25 23:31:44 Log.py[line:30] INFO 请求的接口地址是：http://39.100.104.214:8080/delete/
+2021-07-25 23:31:44 Log.py[line:30] INFO 请求的数据是：{"userid": 16, "token": "f6dbfe9475e507b83de839a3cb9ac314", "articleId": [6]}
+2021-07-25 23:31:44 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 39.100.104.214:8080
+2021-07-25 23:31:44 connectionpool.py[line:452] DEBUG http://39.100.104.214:8080 "POST /delete/ HTTP/1.1" 200 None
+2021-07-25 23:31:44 Log.py[line:30] INFO 接口的响应结果是：{"articleId": [6], "code": "00", "userid": 16}
+2021-07-25 23:31:44 Log.py[line:30] INFO 断言值为："code": "00"
+2021-07-25 23:31:44 Log.py[line:30] INFO 接口请求的耗时为134 毫秒
+2021-07-25 23:31:44 Log.py[line:30] INFO ------------------------------------------------------------------------------------------------------------------------------------------------------
+2021-07-25 23:31:44 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 39.100.104.214:8080
+2021-07-25 23:31:44 connectionpool.py[line:452] DEBUG http://39.100.104.214:8080 "GET /getBlogContent/6 HTTP/1.1" 200 None
+2021-07-25 23:31:44 Log.py[line:30] INFO 请求的接口地址是：http://39.100.104.214:8080/getBlogContent/6
+2021-07-25 23:31:44 Log.py[line:30] INFO 请求的数据是：6
+2021-07-25 23:31:44 Log.py[line:30] INFO 接口的响应结果是：{"code": "03", "articleId": "6"}
+2021-07-25 23:31:44 Log.py[line:30] INFO 断言值为：{"code": "03"
+2021-07-25 23:31:44 Log.py[line:30] INFO 接口请求的耗时为129 毫秒
+2021-07-25 23:31:44 Log.py[line:30] INFO ------------------------------------------------------------------------------------------------------------------------------------------------------
+2021-07-25 23:31:44 Log.py[line:30] INFO **************************************************
+2021-07-25 23:31:44 Log.py[line:30] INFO 设定的测试用例sheet名称为：注册登录
+2021-07-25 23:31:44 Log.py[line:30] INFO 全局唯一数当前生成的值是：106
+2021-07-25 23:31:44 Log.py[line:30] INFO 请求的接口地址是：http://39.100.104.214:8080/register/
+2021-07-25 23:31:44 Log.py[line:30] INFO 请求的数据是：{"username": "testman106", "password": "123456789abc", "email": "sed@qq.com"}
+2021-07-25 23:31:44 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 39.100.104.214:8080
+2021-07-25 23:31:44 connectionpool.py[line:452] DEBUG http://39.100.104.214:8080 "POST /register/ HTTP/1.1" 200 None
+2021-07-25 23:31:44 Log.py[line:30] INFO 接口的响应结果是：{"code": "00", "userid": 17}
+2021-07-25 23:31:44 Log.py[line:30] INFO 断言值为："code": "00"
+2021-07-25 23:31:44 Log.py[line:30] INFO 接口请求的耗时为130 毫秒
+2021-07-25 23:31:44 Log.py[line:30] INFO 从响应中提取的变量名userid，变量值为17
+2021-07-25 23:31:44 Log.py[line:30] INFO 生成全局变量名： global_vars['userid']='17'
+2021-07-25 23:31:44 Log.py[line:30] INFO ------------------------------------------------------------------------------------------------------------------------------------------------------
+2021-07-25 23:31:44 Log.py[line:30] INFO 请求的接口地址是：http://39.100.104.214:8080/login/
+2021-07-25 23:31:44 Log.py[line:30] INFO 请求的数据是：{"username": "testman106", "password": "d266f2f31cf903c870027659030e967e"}
+2021-07-25 23:31:44 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 39.100.104.214:8080
+2021-07-25 23:31:44 connectionpool.py[line:452] DEBUG http://39.100.104.214:8080 "POST /login/ HTTP/1.1" 200 None
+2021-07-25 23:31:44 Log.py[line:30] INFO 接口的响应结果是：{"token": "ab6fcd2e59ff788b06e715f5b8989dd1", "code": "00", "userid": 17, "login_time": "2021-07-25 23:31:44"}
+2021-07-25 23:31:44 Log.py[line:30] INFO 断言值为：token
+2021-07-25 23:31:44 Log.py[line:30] INFO 接口请求的耗时为116 毫秒
+2021-07-25 23:31:44 Log.py[line:30] INFO 从响应中提取的变量名token，变量值为ab6fcd2e59ff788b06e715f5b8989dd1
+2021-07-25 23:31:44 Log.py[line:30] INFO 生成全局变量名： global_vars['token']='ab6fcd2e59ff788b06e715f5b8989dd1'
+2021-07-25 23:31:44 Log.py[line:30] INFO ------------------------------------------------------------------------------------------------------------------------------------------------------
+2021-07-25 23:31:44 Log.py[line:30] INFO 请求的接口地址是：http://39.100.104.214:8080/create/
+2021-07-25 23:31:44 Log.py[line:30] INFO 请求的数据是：{"userid": 17, "token": "ab6fcd2e59ff788b06e715f5b8989dd1", "title": "python", "content": "python port test"}
+2021-07-25 23:31:44 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 39.100.104.214:8080
+2021-07-25 23:31:44 connectionpool.py[line:452] DEBUG http://39.100.104.214:8080 "POST /create/ HTTP/1.1" 200 None
+2021-07-25 23:31:44 Log.py[line:30] INFO 接口的响应结果是：{"data": [{"content": "python port test", "title": "python"}], "code": "00", "userid": 17}
+2021-07-25 23:31:44 Log.py[line:30] INFO 断言值为："code": "00"
+2021-07-25 23:31:44 Log.py[line:30] INFO 接口请求的耗时为124 毫秒
+2021-07-25 23:31:44 Log.py[line:30] INFO ------------------------------------------------------------------------------------------------------------------------------------------------------
+2021-07-25 23:31:44 Log.py[line:30] INFO **************************************************
+2021-07-25 23:32:24 Log.py[line:30] INFO 设定的测试用例sheet名称为：博客api测试
+2021-07-25 23:32:24 Log.py[line:30] INFO 全局唯一数当前生成的值是：107
+2021-07-25 23:32:24 Log.py[line:30] INFO 请求的接口地址是：http://39.100.104.214:8080/register/
+2021-07-25 23:32:24 Log.py[line:30] INFO 请求的数据是：{"username": "testman107", "password": "123456789abc", "email": "sed@qq.com"}
+2021-07-25 23:32:24 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 39.100.104.214:8080
+2021-07-25 23:32:24 connectionpool.py[line:452] DEBUG http://39.100.104.214:8080 "POST /register/ HTTP/1.1" 200 None
+2021-07-25 23:32:24 Log.py[line:30] INFO 接口的响应结果是：{"code": "00", "userid": 18}
+2021-07-25 23:32:24 Log.py[line:30] INFO 断言值为："code": "00"
+2021-07-25 23:32:24 Log.py[line:30] INFO 接口请求的耗时为154 毫秒
+2021-07-25 23:32:24 Log.py[line:30] INFO 从响应中提取的变量名userid，变量值为18
+2021-07-25 23:32:24 Log.py[line:30] INFO 生成全局变量名： global_vars['userid']='18'
+2021-07-25 23:32:24 Log.py[line:30] INFO ------------------------------------------------------------------------------------------------------------------------------------------------------
+2021-07-25 23:32:24 Log.py[line:30] INFO 请求的接口地址是：http://39.100.104.214:8080/login/
+2021-07-25 23:32:24 Log.py[line:30] INFO 请求的数据是：{"username": "testman107", "password": "d266f2f31cf903c870027659030e967e"}
+2021-07-25 23:32:24 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 39.100.104.214:8080
+2021-07-25 23:32:24 connectionpool.py[line:452] DEBUG http://39.100.104.214:8080 "POST /login/ HTTP/1.1" 200 None
+2021-07-25 23:32:24 Log.py[line:30] INFO 接口的响应结果是：{"token": "955a268de3cf5615670d74ee0f59fc69", "code": "00", "userid": 18, "login_time": "2021-07-25 23:32:25"}
+2021-07-25 23:32:24 Log.py[line:30] INFO 断言值为：token
+2021-07-25 23:32:24 Log.py[line:30] INFO 接口请求的耗时为141 毫秒
+2021-07-25 23:32:24 Log.py[line:30] INFO 从响应中提取的变量名token，变量值为955a268de3cf5615670d74ee0f59fc69
+2021-07-25 23:32:24 Log.py[line:30] INFO 生成全局变量名： global_vars['token']='955a268de3cf5615670d74ee0f59fc69'
+2021-07-25 23:32:24 Log.py[line:30] INFO ------------------------------------------------------------------------------------------------------------------------------------------------------
+2021-07-25 23:32:24 Log.py[line:30] INFO 请求的接口地址是：http://39.100.104.214:8080/create/
+2021-07-25 23:32:24 Log.py[line:30] INFO 请求的数据是：{"userid": 18, "token": "955a268de3cf5615670d74ee0f59fc69", "title": "python", "content": "python port test"}
+2021-07-25 23:32:24 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 39.100.104.214:8080
+2021-07-25 23:32:25 connectionpool.py[line:452] DEBUG http://39.100.104.214:8080 "POST /create/ HTTP/1.1" 200 None
+2021-07-25 23:32:25 Log.py[line:30] INFO 接口的响应结果是：{"data": [{"content": "python port test", "title": "python"}], "code": "00", "userid": 18}
+2021-07-25 23:32:25 Log.py[line:30] INFO 断言值为："code": "00"
+2021-07-25 23:32:25 Log.py[line:30] INFO 接口请求的耗时为144 毫秒
+2021-07-25 23:32:25 Log.py[line:30] INFO ------------------------------------------------------------------------------------------------------------------------------------------------------
+2021-07-25 23:32:25 Log.py[line:30] INFO 请求的接口地址是：http://39.100.104.214:8080/getBlogsOfUser/
+2021-07-25 23:32:25 Log.py[line:30] INFO 请求的数据是：{"userid": 18, "token": "955a268de3cf5615670d74ee0f59fc69"}
+2021-07-25 23:32:25 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 39.100.104.214:8080
+2021-07-25 23:32:25 connectionpool.py[line:452] DEBUG http://39.100.104.214:8080 "POST /getBlogsOfUser/ HTTP/1.1" 200 None
+2021-07-25 23:32:25 Log.py[line:30] INFO 接口的响应结果是：{"data": [{"update_time": null, "title": "python", "content": "python port test", "articleId": 8, "owner": 18, "posted_on": "2021-07-25 23:32:25"}], "code": "00", "userid": 18}
+2021-07-25 23:32:25 Log.py[line:30] INFO 断言值为："title": "(\w+)"
+2021-07-25 23:32:25 Log.py[line:30] INFO 接口请求的耗时为132 毫秒
+2021-07-25 23:32:25 Log.py[line:30] INFO 从响应中提取的变量名articleid，变量值为8
+2021-07-25 23:32:25 Log.py[line:30] INFO 生成全局变量名： global_vars['articleid']='8'
+2021-07-25 23:32:25 Log.py[line:30] INFO ------------------------------------------------------------------------------------------------------------------------------------------------------
+2021-07-25 23:32:25 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 39.100.104.214:8080
+2021-07-25 23:32:25 connectionpool.py[line:452] DEBUG http://39.100.104.214:8080 "GET /getBlogContent/8 HTTP/1.1" 200 None
+2021-07-25 23:32:25 Log.py[line:30] INFO 请求的接口地址是：http://39.100.104.214:8080/getBlogContent/8
+2021-07-25 23:32:25 Log.py[line:30] INFO 请求的数据是：8
+2021-07-25 23:32:25 Log.py[line:30] INFO 接口的响应结果是：{"code": "00", "data": [{"update_time": null, "title": "python", "content": "python port test", "articleId": 8, "owner": 18, "posted_on": "2021-07-25 23:32:25"}]}
+2021-07-25 23:32:25 Log.py[line:30] INFO 断言值为："content": "python port test"
+2021-07-25 23:32:25 Log.py[line:30] INFO 接口请求的耗时为128 毫秒
+2021-07-25 23:32:25 Log.py[line:30] INFO ------------------------------------------------------------------------------------------------------------------------------------------------------
+2021-07-25 23:32:25 Log.py[line:30] INFO 请求的接口地址是：http://39.100.104.214:8080/update/
+2021-07-25 23:32:25 Log.py[line:30] INFO 请求的数据是：{"userid": 18, "token": "955a268de3cf5615670d74ee0f59fc69", "articleId": 8, "title": "python", "content": "test test"}
+2021-07-25 23:32:25 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 39.100.104.214:8080
+2021-07-25 23:32:25 connectionpool.py[line:452] DEBUG http://39.100.104.214:8080 "PUT /update/ HTTP/1.1" 200 None
+2021-07-25 23:32:25 Log.py[line:30] INFO 接口的响应结果是：{"articleId": 8, "update_time": "2021-07-25 23:32:25", "code": "00", "userid": 18}
+2021-07-25 23:32:25 Log.py[line:30] INFO 断言值为："update_time": "2019
+2021-07-25 23:32:25 Log.py[line:30] INFO 接口请求的耗时为121 毫秒
+2021-07-25 23:32:25 Log.py[line:30] INFO ------------------------------------------------------------------------------------------------------------------------------------------------------
+2021-07-25 23:32:25 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 39.100.104.214:8080
+2021-07-25 23:32:25 connectionpool.py[line:452] DEBUG http://39.100.104.214:8080 "GET /getBlogContent/8 HTTP/1.1" 200 None
+2021-07-25 23:32:25 Log.py[line:30] INFO 请求的接口地址是：http://39.100.104.214:8080/getBlogContent/8
+2021-07-25 23:32:25 Log.py[line:30] INFO 请求的数据是：8
+2021-07-25 23:32:25 Log.py[line:30] INFO 接口的响应结果是：{"code": "00", "data": [{"update_time": "2021-07-25 23:32:25", "title": "python", "content": "test test", "articleId": 8, "owner": 18, "posted_on": "2021-07-25 23:32:25"}]}
+2021-07-25 23:32:25 Log.py[line:30] INFO 断言值为："content": "test test"
+2021-07-25 23:32:25 Log.py[line:30] INFO 接口请求的耗时为142 毫秒
+2021-07-25 23:32:25 Log.py[line:30] INFO ------------------------------------------------------------------------------------------------------------------------------------------------------
+2021-07-25 23:32:25 Log.py[line:30] INFO 请求的接口地址是：http://39.100.104.214:8080/delete/
+2021-07-25 23:32:25 Log.py[line:30] INFO 请求的数据是：{"userid": 18, "token": "955a268de3cf5615670d74ee0f59fc69", "articleId": [8]}
+2021-07-25 23:32:25 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 39.100.104.214:8080
+2021-07-25 23:32:25 connectionpool.py[line:452] DEBUG http://39.100.104.214:8080 "POST /delete/ HTTP/1.1" 200 None
+2021-07-25 23:32:25 Log.py[line:30] INFO 接口的响应结果是：{"articleId": [8], "code": "00", "userid": 18}
+2021-07-25 23:32:25 Log.py[line:30] INFO 断言值为："code": "00"
+2021-07-25 23:32:25 Log.py[line:30] INFO 接口请求的耗时为173 毫秒
+2021-07-25 23:32:25 Log.py[line:30] INFO ------------------------------------------------------------------------------------------------------------------------------------------------------
+2021-07-25 23:32:25 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 39.100.104.214:8080
+2021-07-25 23:32:25 connectionpool.py[line:452] DEBUG http://39.100.104.214:8080 "GET /getBlogContent/8 HTTP/1.1" 200 None
+2021-07-25 23:32:25 Log.py[line:30] INFO 请求的接口地址是：http://39.100.104.214:8080/getBlogContent/8
+2021-07-25 23:32:25 Log.py[line:30] INFO 请求的数据是：8
+2021-07-25 23:32:25 Log.py[line:30] INFO 接口的响应结果是：{"code": "03", "articleId": "8"}
+2021-07-25 23:32:25 Log.py[line:30] INFO 断言值为：{"code": "03"
+2021-07-25 23:32:25 Log.py[line:30] INFO 接口请求的耗时为145 毫秒
+2021-07-25 23:32:25 Log.py[line:30] INFO ------------------------------------------------------------------------------------------------------------------------------------------------------
+2021-07-25 23:32:25 Log.py[line:30] INFO **************************************************
+2021-07-25 23:32:26 Log.py[line:30] INFO 设定的测试用例sheet名称为：注册登录
+2021-07-25 23:32:26 Log.py[line:30] INFO 全局唯一数当前生成的值是：108
+2021-07-25 23:32:26 Log.py[line:30] INFO 请求的接口地址是：http://39.100.104.214:8080/register/
+2021-07-25 23:32:26 Log.py[line:30] INFO 请求的数据是：{"username": "testman108", "password": "123456789abc", "email": "sed@qq.com"}
+2021-07-25 23:32:26 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 39.100.104.214:8080
+2021-07-25 23:32:26 connectionpool.py[line:452] DEBUG http://39.100.104.214:8080 "POST /register/ HTTP/1.1" 200 None
+2021-07-25 23:32:26 Log.py[line:30] INFO 接口的响应结果是：{"code": "00", "userid": 19}
+2021-07-25 23:32:26 Log.py[line:30] INFO 断言值为："code": "00"
+2021-07-25 23:32:26 Log.py[line:30] INFO 接口请求的耗时为128 毫秒
+2021-07-25 23:32:26 Log.py[line:30] INFO 从响应中提取的变量名userid，变量值为19
+2021-07-25 23:32:26 Log.py[line:30] INFO 生成全局变量名： global_vars['userid']='19'
+2021-07-25 23:32:26 Log.py[line:30] INFO ------------------------------------------------------------------------------------------------------------------------------------------------------
+2021-07-25 23:32:26 Log.py[line:30] INFO 请求的接口地址是：http://39.100.104.214:8080/login/
+2021-07-25 23:32:26 Log.py[line:30] INFO 请求的数据是：{"username": "testman108", "password": "d266f2f31cf903c870027659030e967e"}
+2021-07-25 23:32:26 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 39.100.104.214:8080
+2021-07-25 23:32:26 connectionpool.py[line:452] DEBUG http://39.100.104.214:8080 "POST /login/ HTTP/1.1" 200 None
+2021-07-25 23:32:26 Log.py[line:30] INFO 接口的响应结果是：{"token": "95216b41c76eb3d9dbaf82e0ac4aa564", "code": "00", "userid": 19, "login_time": "2021-07-25 23:32:26"}
+2021-07-25 23:32:26 Log.py[line:30] INFO 断言值为：token
+2021-07-25 23:32:26 Log.py[line:30] INFO 接口请求的耗时为143 毫秒
+2021-07-25 23:32:26 Log.py[line:30] INFO 从响应中提取的变量名token，变量值为95216b41c76eb3d9dbaf82e0ac4aa564
+2021-07-25 23:32:26 Log.py[line:30] INFO 生成全局变量名： global_vars['token']='95216b41c76eb3d9dbaf82e0ac4aa564'
+2021-07-25 23:32:26 Log.py[line:30] INFO ------------------------------------------------------------------------------------------------------------------------------------------------------
+2021-07-25 23:32:26 Log.py[line:30] INFO 请求的接口地址是：http://39.100.104.214:8080/create/
+2021-07-25 23:32:26 Log.py[line:30] INFO 请求的数据是：{"userid": 19, "token": "95216b41c76eb3d9dbaf82e0ac4aa564", "title": "python", "content": "python port test"}
+2021-07-25 23:32:26 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 39.100.104.214:8080
+2021-07-25 23:32:26 connectionpool.py[line:452] DEBUG http://39.100.104.214:8080 "POST /create/ HTTP/1.1" 200 None
+2021-07-25 23:32:26 Log.py[line:30] INFO 接口的响应结果是：{"data": [{"content": "python port test", "title": "python"}], "code": "00", "userid": 19}
+2021-07-25 23:32:26 Log.py[line:30] INFO 断言值为："code": "00"
+2021-07-25 23:32:26 Log.py[line:30] INFO 接口请求的耗时为133 毫秒
+2021-07-25 23:32:26 Log.py[line:30] INFO ------------------------------------------------------------------------------------------------------------------------------------------------------
+2021-07-25 23:32:26 Log.py[line:30] INFO **************************************************
+2021-07-25 23:45:49 Log.py[line:30] INFO 设定的测试用例sheet名称为：博客api测试
+2021-07-25 23:45:49 Log.py[line:30] INFO 全局唯一数当前生成的值是：109
+2021-07-25 23:45:49 Log.py[line:30] INFO 请求的接口地址是：http://39.100.104.214:8080/register/
+2021-07-25 23:45:49 Log.py[line:30] INFO 请求的数据是：{"username": "testman109", "password": "123456789abc", "email": "sed@qq.com"}
+2021-07-25 23:45:49 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 39.100.104.214:8080
+2021-07-25 23:45:49 connectionpool.py[line:452] DEBUG http://39.100.104.214:8080 "POST /register/ HTTP/1.1" 200 None
+2021-07-25 23:45:49 Log.py[line:30] INFO 接口的响应结果是：{"code": "00", "userid": 20}
+2021-07-25 23:45:49 Log.py[line:30] INFO 断言值为："code": "00"
+2021-07-25 23:45:49 Log.py[line:30] INFO 接口请求的耗时为150 毫秒
+2021-07-25 23:45:49 Log.py[line:30] INFO 从响应中提取的变量名userid，变量值为20
+2021-07-25 23:45:49 Log.py[line:30] INFO 生成全局变量名： global_vars['userid']='20'
+2021-07-25 23:45:49 Log.py[line:30] INFO ------------------------------------------------------------------------------------------------------------------------------------------------------
+2021-07-25 23:45:49 Log.py[line:30] INFO 请求的接口地址是：http://39.100.104.214:8080/login/
+2021-07-25 23:45:49 Log.py[line:30] INFO 请求的数据是：{"username": "testman109", "password": "d266f2f31cf903c870027659030e967e"}
+2021-07-25 23:45:49 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 39.100.104.214:8080
+2021-07-25 23:45:50 connectionpool.py[line:452] DEBUG http://39.100.104.214:8080 "POST /login/ HTTP/1.1" 200 None
+2021-07-25 23:45:50 Log.py[line:30] INFO 接口的响应结果是：{"token": "17d3588eb5e5a781eba41edbdc7c3e43", "code": "00", "userid": 20, "login_time": "2021-07-25 23:45:50"}
+2021-07-25 23:45:50 Log.py[line:30] INFO 断言值为：token
+2021-07-25 23:45:50 Log.py[line:30] INFO 接口请求的耗时为111 毫秒
+2021-07-25 23:45:50 Log.py[line:30] INFO 从响应中提取的变量名token，变量值为17d3588eb5e5a781eba41edbdc7c3e43
+2021-07-25 23:45:50 Log.py[line:30] INFO 生成全局变量名： global_vars['token']='17d3588eb5e5a781eba41edbdc7c3e43'
+2021-07-25 23:45:50 Log.py[line:30] INFO ------------------------------------------------------------------------------------------------------------------------------------------------------
+2021-07-25 23:45:50 Log.py[line:30] INFO 请求的接口地址是：http://39.100.104.214:8080/create/
+2021-07-25 23:45:50 Log.py[line:30] INFO 请求的数据是：{"userid": 20, "token": "17d3588eb5e5a781eba41edbdc7c3e43", "title": "python", "content": "python port test"}
+2021-07-25 23:45:50 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 39.100.104.214:8080
+2021-07-25 23:45:50 connectionpool.py[line:452] DEBUG http://39.100.104.214:8080 "POST /create/ HTTP/1.1" 200 None
+2021-07-25 23:45:50 Log.py[line:30] INFO 接口的响应结果是：{"data": [{"content": "python port test", "title": "python"}], "code": "00", "userid": 20}
+2021-07-25 23:45:50 Log.py[line:30] INFO 断言值为："code": "00"
+2021-07-25 23:45:50 Log.py[line:30] INFO 接口请求的耗时为116 毫秒
+2021-07-25 23:45:50 Log.py[line:30] INFO ------------------------------------------------------------------------------------------------------------------------------------------------------
+2021-07-25 23:45:50 Log.py[line:30] INFO 请求的接口地址是：http://39.100.104.214:8080/getBlogsOfUser/
+2021-07-25 23:45:50 Log.py[line:30] INFO 请求的数据是：{"userid": 20, "token": "17d3588eb5e5a781eba41edbdc7c3e43"}
+2021-07-25 23:45:50 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 39.100.104.214:8080
+2021-07-25 23:45:50 connectionpool.py[line:452] DEBUG http://39.100.104.214:8080 "POST /getBlogsOfUser/ HTTP/1.1" 200 None
+2021-07-25 23:45:50 Log.py[line:30] INFO 接口的响应结果是：{"data": [{"update_time": null, "title": "python", "content": "python port test", "articleId": 10, "owner": 20, "posted_on": "2021-07-25 23:45:50"}], "code": "00", "userid": 20}
+2021-07-25 23:45:50 Log.py[line:30] INFO 断言值为："title": "(\w+)"
+2021-07-25 23:45:50 Log.py[line:30] INFO 接口请求的耗时为128 毫秒
+2021-07-25 23:45:50 Log.py[line:30] INFO 从响应中提取的变量名articleid，变量值为10
+2021-07-25 23:45:50 Log.py[line:30] INFO 生成全局变量名： global_vars['articleid']='10'
+2021-07-25 23:45:50 Log.py[line:30] INFO ------------------------------------------------------------------------------------------------------------------------------------------------------
+2021-07-25 23:45:50 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 39.100.104.214:8080
+2021-07-25 23:45:50 connectionpool.py[line:452] DEBUG http://39.100.104.214:8080 "GET /getBlogContent/10 HTTP/1.1" 200 None
+2021-07-25 23:45:50 Log.py[line:30] INFO 请求的接口地址是：http://39.100.104.214:8080/getBlogContent/10
+2021-07-25 23:45:50 Log.py[line:30] INFO 请求的数据是：10
+2021-07-25 23:45:50 Log.py[line:30] INFO 接口的响应结果是：{"code": "00", "data": [{"update_time": null, "title": "python", "content": "python port test", "articleId": 10, "owner": 20, "posted_on": "2021-07-25 23:45:50"}]}
+2021-07-25 23:45:50 Log.py[line:30] INFO 断言值为："content": "python port test"
+2021-07-25 23:45:50 Log.py[line:30] INFO 接口请求的耗时为120 毫秒
+2021-07-25 23:45:50 Log.py[line:30] INFO ------------------------------------------------------------------------------------------------------------------------------------------------------
+2021-07-25 23:45:50 Log.py[line:30] INFO 请求的接口地址是：http://39.100.104.214:8080/update/
+2021-07-25 23:45:50 Log.py[line:30] INFO 请求的数据是：{"userid": 20, "token": "17d3588eb5e5a781eba41edbdc7c3e43", "articleId": 10, "title": "python", "content": "test test"}
+2021-07-25 23:45:50 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 39.100.104.214:8080
+2021-07-25 23:45:50 connectionpool.py[line:452] DEBUG http://39.100.104.214:8080 "PUT /update/ HTTP/1.1" 200 None
+2021-07-25 23:45:50 Log.py[line:30] INFO 接口的响应结果是：{"articleId": 10, "update_time": "2021-07-25 23:45:50", "code": "00", "userid": 20}
+2021-07-25 23:45:50 Log.py[line:30] INFO 断言值为："update_time": "2021
+2021-07-25 23:45:50 Log.py[line:30] INFO 接口请求的耗时为137 毫秒
+2021-07-25 23:45:50 Log.py[line:30] INFO ------------------------------------------------------------------------------------------------------------------------------------------------------
+2021-07-25 23:45:50 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 39.100.104.214:8080
+2021-07-25 23:45:50 connectionpool.py[line:452] DEBUG http://39.100.104.214:8080 "GET /getBlogContent/10 HTTP/1.1" 200 None
+2021-07-25 23:45:50 Log.py[line:30] INFO 请求的接口地址是：http://39.100.104.214:8080/getBlogContent/10
+2021-07-25 23:45:50 Log.py[line:30] INFO 请求的数据是：10
+2021-07-25 23:45:50 Log.py[line:30] INFO 接口的响应结果是：{"code": "00", "data": [{"update_time": "2021-07-25 23:45:50", "title": "python", "content": "test test", "articleId": 10, "owner": 20, "posted_on": "2021-07-25 23:45:50"}]}
+2021-07-25 23:45:50 Log.py[line:30] INFO 断言值为："content": "test test"
+2021-07-25 23:45:50 Log.py[line:30] INFO 接口请求的耗时为143 毫秒
+2021-07-25 23:45:50 Log.py[line:30] INFO ------------------------------------------------------------------------------------------------------------------------------------------------------
+2021-07-25 23:45:50 Log.py[line:30] INFO 请求的接口地址是：http://39.100.104.214:8080/delete/
+2021-07-25 23:45:50 Log.py[line:30] INFO 请求的数据是：{"userid": 20, "token": "17d3588eb5e5a781eba41edbdc7c3e43", "articleId": [10]}
+2021-07-25 23:45:50 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 39.100.104.214:8080
+2021-07-25 23:45:50 connectionpool.py[line:452] DEBUG http://39.100.104.214:8080 "POST /delete/ HTTP/1.1" 200 None
+2021-07-25 23:45:50 Log.py[line:30] INFO 接口的响应结果是：{"articleId": [10], "code": "00", "userid": 20}
+2021-07-25 23:45:50 Log.py[line:30] INFO 断言值为："code": "00"
+2021-07-25 23:45:50 Log.py[line:30] INFO 接口请求的耗时为139 毫秒
+2021-07-25 23:45:50 Log.py[line:30] INFO ------------------------------------------------------------------------------------------------------------------------------------------------------
+2021-07-25 23:45:50 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 39.100.104.214:8080
+2021-07-25 23:45:51 connectionpool.py[line:452] DEBUG http://39.100.104.214:8080 "GET /getBlogContent/10 HTTP/1.1" 200 None
+2021-07-25 23:45:51 Log.py[line:30] INFO 请求的接口地址是：http://39.100.104.214:8080/getBlogContent/10
+2021-07-25 23:45:51 Log.py[line:30] INFO 请求的数据是：10
+2021-07-25 23:45:51 Log.py[line:30] INFO 接口的响应结果是：{"code": "03", "articleId": "10"}
+2021-07-25 23:45:51 Log.py[line:30] INFO 断言值为：{"code": "03"
+2021-07-25 23:45:51 Log.py[line:30] INFO 接口请求的耗时为163 毫秒
+2021-07-25 23:45:51 Log.py[line:30] INFO ------------------------------------------------------------------------------------------------------------------------------------------------------
+2021-07-25 23:45:51 Log.py[line:30] INFO **************************************************
+2021-07-25 23:45:51 Log.py[line:30] INFO 设定的测试用例sheet名称为：注册登录
+2021-07-25 23:45:51 Log.py[line:30] INFO 全局唯一数当前生成的值是：110
+2021-07-25 23:45:51 Log.py[line:30] INFO 请求的接口地址是：http://39.100.104.214:8080/register/
+2021-07-25 23:45:51 Log.py[line:30] INFO 请求的数据是：{"username": "testman110", "password": "123456789abc", "email": "sed@qq.com"}
+2021-07-25 23:45:51 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 39.100.104.214:8080
+2021-07-25 23:45:51 connectionpool.py[line:452] DEBUG http://39.100.104.214:8080 "POST /register/ HTTP/1.1" 200 None
+2021-07-25 23:45:51 Log.py[line:30] INFO 接口的响应结果是：{"code": "00", "userid": 21}
+2021-07-25 23:45:51 Log.py[line:30] INFO 断言值为："code": "00"
+2021-07-25 23:45:51 Log.py[line:30] INFO 接口请求的耗时为181 毫秒
+2021-07-25 23:45:51 Log.py[line:30] INFO 从响应中提取的变量名userid，变量值为21
+2021-07-25 23:45:51 Log.py[line:30] INFO 生成全局变量名： global_vars['userid']='21'
+2021-07-25 23:45:51 Log.py[line:30] INFO ------------------------------------------------------------------------------------------------------------------------------------------------------
+2021-07-25 23:45:51 Log.py[line:30] INFO 请求的接口地址是：http://39.100.104.214:8080/login/
+2021-07-25 23:45:51 Log.py[line:30] INFO 请求的数据是：{"username": "testman110", "password": "d266f2f31cf903c870027659030e967e"}
+2021-07-25 23:45:51 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 39.100.104.214:8080
+2021-07-25 23:45:51 connectionpool.py[line:452] DEBUG http://39.100.104.214:8080 "POST /login/ HTTP/1.1" 200 None
+2021-07-25 23:45:51 Log.py[line:30] INFO 接口的响应结果是：{"token": "838bf7bc32274b9282abba15fc80e805", "code": "00", "userid": 21, "login_time": "2021-07-25 23:45:51"}
+2021-07-25 23:45:51 Log.py[line:30] INFO 断言值为：token
+2021-07-25 23:45:51 Log.py[line:30] INFO 接口请求的耗时为155 毫秒
+2021-07-25 23:45:51 Log.py[line:30] INFO 从响应中提取的变量名token，变量值为838bf7bc32274b9282abba15fc80e805
+2021-07-25 23:45:51 Log.py[line:30] INFO 生成全局变量名： global_vars['token']='838bf7bc32274b9282abba15fc80e805'
+2021-07-25 23:45:51 Log.py[line:30] INFO ------------------------------------------------------------------------------------------------------------------------------------------------------
+2021-07-25 23:45:51 Log.py[line:30] INFO 请求的接口地址是：http://39.100.104.214:8080/create/
+2021-07-25 23:45:51 Log.py[line:30] INFO 请求的数据是：{"userid": 21, "token": "838bf7bc32274b9282abba15fc80e805", "title": "python", "content": "python port test"}
+2021-07-25 23:45:51 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 39.100.104.214:8080
+2021-07-25 23:45:51 connectionpool.py[line:452] DEBUG http://39.100.104.214:8080 "POST /create/ HTTP/1.1" 200 None
+2021-07-25 23:45:51 Log.py[line:30] INFO 接口的响应结果是：{"data": [{"content": "python port test", "title": "python"}], "code": "00", "userid": 21}
+2021-07-25 23:45:51 Log.py[line:30] INFO 断言值为："code": "00"
+2021-07-25 23:45:51 Log.py[line:30] INFO 接口请求的耗时为198 毫秒
+2021-07-25 23:45:51 Log.py[line:30] INFO ------------------------------------------------------------------------------------------------------------------------------------------------------
+2021-07-25 23:45:51 Log.py[line:30] INFO **************************************************
+2021-07-25 23:46:13 Log.py[line:30] INFO 设定的测试用例sheet名称为：博客api测试
+2021-07-25 23:46:13 Log.py[line:30] INFO 全局唯一数当前生成的值是：111
+2021-07-25 23:46:13 Log.py[line:30] INFO 请求的接口地址是：http://39.100.104.214:8080/register/
+2021-07-25 23:46:13 Log.py[line:30] INFO 请求的数据是：{"username": "testman111", "password": "123456789abc", "email": "sed@qq.com"}
+2021-07-25 23:46:13 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 39.100.104.214:8080
+2021-07-25 23:46:13 connectionpool.py[line:452] DEBUG http://39.100.104.214:8080 "POST /register/ HTTP/1.1" 200 None
+2021-07-25 23:46:13 Log.py[line:30] INFO 接口的响应结果是：{"code": "00", "userid": 22}
+2021-07-25 23:46:13 Log.py[line:30] INFO 断言值为："code": "00"
+2021-07-25 23:46:13 Log.py[line:30] INFO 接口请求的耗时为159 毫秒
+2021-07-25 23:46:13 Log.py[line:30] INFO 从响应中提取的变量名userid，变量值为22
+2021-07-25 23:46:13 Log.py[line:30] INFO 生成全局变量名： global_vars['userid']='22'
+2021-07-25 23:46:13 Log.py[line:30] INFO ------------------------------------------------------------------------------------------------------------------------------------------------------
+2021-07-25 23:46:13 Log.py[line:30] INFO 请求的接口地址是：http://39.100.104.214:8080/login/
+2021-07-25 23:46:13 Log.py[line:30] INFO 请求的数据是：{"username": "testman111", "password": "d266f2f31cf903c870027659030e967e"}
+2021-07-25 23:46:13 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 39.100.104.214:8080
+2021-07-25 23:46:14 connectionpool.py[line:452] DEBUG http://39.100.104.214:8080 "POST /login/ HTTP/1.1" 200 None
+2021-07-25 23:46:14 Log.py[line:30] INFO 接口的响应结果是：{"token": "9f4fbce7005cecd38a678f006d20706f", "code": "00", "userid": 22, "login_time": "2021-07-25 23:46:14"}
+2021-07-25 23:46:14 Log.py[line:30] INFO 断言值为：token
+2021-07-25 23:46:14 Log.py[line:30] INFO 接口请求的耗时为1124 毫秒
+2021-07-25 23:46:14 Log.py[line:30] INFO 从响应中提取的变量名token，变量值为9f4fbce7005cecd38a678f006d20706f
+2021-07-25 23:46:14 Log.py[line:30] INFO 生成全局变量名： global_vars['token']='9f4fbce7005cecd38a678f006d20706f'
+2021-07-25 23:46:14 Log.py[line:30] INFO ------------------------------------------------------------------------------------------------------------------------------------------------------
+2021-07-25 23:46:14 Log.py[line:30] INFO 请求的接口地址是：http://39.100.104.214:8080/create/
+2021-07-25 23:46:14 Log.py[line:30] INFO 请求的数据是：{"userid": 22, "token": "9f4fbce7005cecd38a678f006d20706f", "title": "python", "content": "python port test"}
+2021-07-25 23:46:14 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 39.100.104.214:8080
+2021-07-25 23:46:15 connectionpool.py[line:452] DEBUG http://39.100.104.214:8080 "POST /create/ HTTP/1.1" 200 None
+2021-07-25 23:46:15 Log.py[line:30] INFO 接口的响应结果是：{"data": [{"content": "python port test", "title": "python"}], "code": "00", "userid": 22}
+2021-07-25 23:46:15 Log.py[line:30] INFO 断言值为："code": "00"
+2021-07-25 23:46:15 Log.py[line:30] INFO 接口请求的耗时为120 毫秒
+2021-07-25 23:46:15 Log.py[line:30] INFO ------------------------------------------------------------------------------------------------------------------------------------------------------
+2021-07-25 23:46:15 Log.py[line:30] INFO 请求的接口地址是：http://39.100.104.214:8080/getBlogsOfUser/
+2021-07-25 23:46:15 Log.py[line:30] INFO 请求的数据是：{"userid": 22, "token": "9f4fbce7005cecd38a678f006d20706f"}
+2021-07-25 23:46:15 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 39.100.104.214:8080
+2021-07-25 23:46:15 connectionpool.py[line:452] DEBUG http://39.100.104.214:8080 "POST /getBlogsOfUser/ HTTP/1.1" 200 None
+2021-07-25 23:46:15 Log.py[line:30] INFO 接口的响应结果是：{"data": [{"update_time": null, "title": "python", "content": "python port test", "articleId": 12, "owner": 22, "posted_on": "2021-07-25 23:46:15"}], "code": "00", "userid": 22}
+2021-07-25 23:46:15 Log.py[line:30] INFO 断言值为："title": "(\w+)"
+2021-07-25 23:46:15 Log.py[line:30] INFO 接口请求的耗时为145 毫秒
+2021-07-25 23:46:15 Log.py[line:30] INFO 从响应中提取的变量名articleid，变量值为12
+2021-07-25 23:46:15 Log.py[line:30] INFO 生成全局变量名： global_vars['articleid']='12'
+2021-07-25 23:46:15 Log.py[line:30] INFO ------------------------------------------------------------------------------------------------------------------------------------------------------
+2021-07-25 23:46:15 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 39.100.104.214:8080
+2021-07-25 23:46:15 connectionpool.py[line:452] DEBUG http://39.100.104.214:8080 "GET /getBlogContent/12 HTTP/1.1" 200 None
+2021-07-25 23:46:15 Log.py[line:30] INFO 请求的接口地址是：http://39.100.104.214:8080/getBlogContent/12
+2021-07-25 23:46:15 Log.py[line:30] INFO 请求的数据是：12
+2021-07-25 23:46:15 Log.py[line:30] INFO 接口的响应结果是：{"code": "00", "data": [{"update_time": null, "title": "python", "content": "python port test", "articleId": 12, "owner": 22, "posted_on": "2021-07-25 23:46:15"}]}
+2021-07-25 23:46:15 Log.py[line:30] INFO 断言值为："content": "python port test"
+2021-07-25 23:46:15 Log.py[line:30] INFO 接口请求的耗时为131 毫秒
+2021-07-25 23:46:15 Log.py[line:30] INFO ------------------------------------------------------------------------------------------------------------------------------------------------------
+2021-07-25 23:46:15 Log.py[line:30] INFO 请求的接口地址是：http://39.100.104.214:8080/update/
+2021-07-25 23:46:15 Log.py[line:30] INFO 请求的数据是：{"userid": 22, "token": "9f4fbce7005cecd38a678f006d20706f", "articleId": 12, "title": "python", "content": "test test"}
+2021-07-25 23:46:15 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 39.100.104.214:8080
+2021-07-25 23:46:15 connectionpool.py[line:452] DEBUG http://39.100.104.214:8080 "PUT /update/ HTTP/1.1" 200 None
+2021-07-25 23:46:15 Log.py[line:30] INFO 接口的响应结果是：{"articleId": 12, "update_time": "2021-07-25 23:46:15", "code": "00", "userid": 22}
+2021-07-25 23:46:15 Log.py[line:30] INFO 断言值为："update_time": "2021
+2021-07-25 23:46:15 Log.py[line:30] INFO 接口请求的耗时为138 毫秒
+2021-07-25 23:46:15 Log.py[line:30] INFO ------------------------------------------------------------------------------------------------------------------------------------------------------
+2021-07-25 23:46:15 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 39.100.104.214:8080
+2021-07-25 23:46:15 connectionpool.py[line:452] DEBUG http://39.100.104.214:8080 "GET /getBlogContent/12 HTTP/1.1" 200 None
+2021-07-25 23:46:15 Log.py[line:30] INFO 请求的接口地址是：http://39.100.104.214:8080/getBlogContent/12
+2021-07-25 23:46:15 Log.py[line:30] INFO 请求的数据是：12
+2021-07-25 23:46:15 Log.py[line:30] INFO 接口的响应结果是：{"code": "00", "data": [{"update_time": "2021-07-25 23:46:15", "title": "python", "content": "test test", "articleId": 12, "owner": 22, "posted_on": "2021-07-25 23:46:15"}]}
+2021-07-25 23:46:15 Log.py[line:30] INFO 断言值为："content": "test test"
+2021-07-25 23:46:15 Log.py[line:30] INFO 接口请求的耗时为129 毫秒
+2021-07-25 23:46:15 Log.py[line:30] INFO ------------------------------------------------------------------------------------------------------------------------------------------------------
+2021-07-25 23:46:15 Log.py[line:30] INFO 请求的接口地址是：http://39.100.104.214:8080/delete/
+2021-07-25 23:46:15 Log.py[line:30] INFO 请求的数据是：{"userid": 22, "token": "9f4fbce7005cecd38a678f006d20706f", "articleId": [12]}
+2021-07-25 23:46:15 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 39.100.104.214:8080
+2021-07-25 23:46:15 connectionpool.py[line:452] DEBUG http://39.100.104.214:8080 "POST /delete/ HTTP/1.1" 200 None
+2021-07-25 23:46:15 Log.py[line:30] INFO 接口的响应结果是：{"articleId": [12], "code": "00", "userid": 22}
+2021-07-25 23:46:15 Log.py[line:30] INFO 断言值为："code": "00"
+2021-07-25 23:46:15 Log.py[line:30] INFO 接口请求的耗时为118 毫秒
+2021-07-25 23:46:15 Log.py[line:30] INFO ------------------------------------------------------------------------------------------------------------------------------------------------------
+2021-07-25 23:46:15 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 39.100.104.214:8080
+2021-07-25 23:46:15 connectionpool.py[line:452] DEBUG http://39.100.104.214:8080 "GET /getBlogContent/12 HTTP/1.1" 200 None
+2021-07-25 23:46:15 Log.py[line:30] INFO 请求的接口地址是：http://39.100.104.214:8080/getBlogContent/12
+2021-07-25 23:46:15 Log.py[line:30] INFO 请求的数据是：12
+2021-07-25 23:46:15 Log.py[line:30] INFO 接口的响应结果是：{"code": "03", "articleId": "12"}
+2021-07-25 23:46:15 Log.py[line:30] INFO 断言值为：{"code": "03"
+2021-07-25 23:46:15 Log.py[line:30] INFO 接口请求的耗时为120 毫秒
+2021-07-25 23:46:15 Log.py[line:30] INFO ------------------------------------------------------------------------------------------------------------------------------------------------------
+2021-07-25 23:46:15 Log.py[line:30] INFO **************************************************
+2021-07-25 23:46:15 Log.py[line:30] INFO 设定的测试用例sheet名称为：注册登录
+2021-07-25 23:46:15 Log.py[line:30] INFO 全局唯一数当前生成的值是：112
+2021-07-25 23:46:15 Log.py[line:30] INFO 请求的接口地址是：http://39.100.104.214:8080/register/
+2021-07-25 23:46:15 Log.py[line:30] INFO 请求的数据是：{"username": "testman112", "password": "123456789abc", "email": "sed@qq.com"}
+2021-07-25 23:46:15 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 39.100.104.214:8080
+2021-07-25 23:46:16 connectionpool.py[line:452] DEBUG http://39.100.104.214:8080 "POST /register/ HTTP/1.1" 200 None
+2021-07-25 23:46:16 Log.py[line:30] INFO 接口的响应结果是：{"code": "00", "userid": 23}
+2021-07-25 23:46:16 Log.py[line:30] INFO 断言值为："code": "00"
+2021-07-25 23:46:16 Log.py[line:30] INFO 接口请求的耗时为132 毫秒
+2021-07-25 23:46:16 Log.py[line:30] INFO 从响应中提取的变量名userid，变量值为23
+2021-07-25 23:46:16 Log.py[line:30] INFO 生成全局变量名： global_vars['userid']='23'
+2021-07-25 23:46:16 Log.py[line:30] INFO ------------------------------------------------------------------------------------------------------------------------------------------------------
+2021-07-25 23:46:16 Log.py[line:30] INFO 请求的接口地址是：http://39.100.104.214:8080/login/
+2021-07-25 23:46:16 Log.py[line:30] INFO 请求的数据是：{"username": "testman112", "password": "d266f2f31cf903c870027659030e967e"}
+2021-07-25 23:46:16 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 39.100.104.214:8080
+2021-07-25 23:46:16 connectionpool.py[line:452] DEBUG http://39.100.104.214:8080 "POST /login/ HTTP/1.1" 200 None
+2021-07-25 23:46:16 Log.py[line:30] INFO 接口的响应结果是：{"token": "d788fd3da0b47b2b69d1f021c129be14", "code": "00", "userid": 23, "login_time": "2021-07-25 23:46:16"}
+2021-07-25 23:46:16 Log.py[line:30] INFO 断言值为：token
+2021-07-25 23:46:16 Log.py[line:30] INFO 接口请求的耗时为145 毫秒
+2021-07-25 23:46:16 Log.py[line:30] INFO 从响应中提取的变量名token，变量值为d788fd3da0b47b2b69d1f021c129be14
+2021-07-25 23:46:16 Log.py[line:30] INFO 生成全局变量名： global_vars['token']='d788fd3da0b47b2b69d1f021c129be14'
+2021-07-25 23:46:16 Log.py[line:30] INFO ------------------------------------------------------------------------------------------------------------------------------------------------------
+2021-07-25 23:46:16 Log.py[line:30] INFO 请求的接口地址是：http://39.100.104.214:8080/create/
+2021-07-25 23:46:16 Log.py[line:30] INFO 请求的数据是：{"userid": 23, "token": "d788fd3da0b47b2b69d1f021c129be14", "title": "python", "content": "python port test"}
+2021-07-25 23:46:16 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 39.100.104.214:8080
+2021-07-25 23:46:16 connectionpool.py[line:452] DEBUG http://39.100.104.214:8080 "POST /create/ HTTP/1.1" 200 None
+2021-07-25 23:46:16 Log.py[line:30] INFO 接口的响应结果是：{"data": [{"content": "python port test", "title": "python"}], "code": "00", "userid": 23}
+2021-07-25 23:46:16 Log.py[line:30] INFO 断言值为："code": "00"
+2021-07-25 23:46:16 Log.py[line:30] INFO 接口请求的耗时为121 毫秒
+2021-07-25 23:46:16 Log.py[line:30] INFO ------------------------------------------------------------------------------------------------------------------------------------------------------
+2021-07-25 23:46:16 Log.py[line:30] INFO **************************************************
+2021-07-25 23:50:48 Log.py[line:30] INFO 设定的测试用例sheet名称为：博客api测试
+2021-07-25 23:50:48 Log.py[line:30] INFO 全局唯一数当前生成的值是：113
+2021-07-25 23:50:48 Log.py[line:30] INFO 请求的接口地址是：http://39.100.104.214:8080/register/
+2021-07-25 23:50:48 Log.py[line:30] INFO 请求的数据是：{"username": "testman113", "password": "123456789abc", "email": "sed@qq.com"}
+2021-07-25 23:50:48 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 39.100.104.214:8080
+2021-07-25 23:50:48 connectionpool.py[line:452] DEBUG http://39.100.104.214:8080 "POST /register/ HTTP/1.1" 200 None
+2021-07-25 23:50:48 Log.py[line:30] INFO 接口的响应结果是：{"code": "00", "userid": 24}
+2021-07-25 23:50:48 Log.py[line:30] INFO 断言值为："code": "00"
+2021-07-25 23:50:48 Log.py[line:30] INFO 接口请求的耗时为145 毫秒
+2021-07-25 23:50:48 Log.py[line:30] INFO 从响应中提取的变量名userid，变量值为24
+2021-07-25 23:50:48 Log.py[line:30] INFO 生成全局变量名： global_vars['userid']='24'
+2021-07-25 23:50:48 Log.py[line:30] INFO ------------------------------------------------------------------------------------------------------------------------------------------------------
+2021-07-25 23:50:48 Log.py[line:30] INFO 请求的接口地址是：http://39.100.104.214:8080/login/
+2021-07-25 23:50:48 Log.py[line:30] INFO 请求的数据是：{"username": "testman113", "password": "d266f2f31cf903c870027659030e967e"}
+2021-07-25 23:50:48 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 39.100.104.214:8080
+2021-07-25 23:50:48 connectionpool.py[line:452] DEBUG http://39.100.104.214:8080 "POST /login/ HTTP/1.1" 200 None
+2021-07-25 23:50:48 Log.py[line:30] INFO 接口的响应结果是：{"token": "81f442298d82858fd2d43232ee8bf9de", "code": "00", "userid": 24, "login_time": "2021-07-25 23:50:49"}
+2021-07-25 23:50:48 Log.py[line:30] INFO 断言值为：token
+2021-07-25 23:50:48 Log.py[line:30] INFO 接口请求的耗时为117 毫秒
+2021-07-25 23:50:48 Log.py[line:30] INFO 从响应中提取的变量名token，变量值为81f442298d82858fd2d43232ee8bf9de
+2021-07-25 23:50:48 Log.py[line:30] INFO 生成全局变量名： global_vars['token']='81f442298d82858fd2d43232ee8bf9de'
+2021-07-25 23:50:48 Log.py[line:30] INFO ------------------------------------------------------------------------------------------------------------------------------------------------------
+2021-07-25 23:50:48 Log.py[line:30] INFO 请求的接口地址是：http://39.100.104.214:8080/create/
+2021-07-25 23:50:48 Log.py[line:30] INFO 请求的数据是：{"userid": 24, "token": "81f442298d82858fd2d43232ee8bf9de", "title": "python", "content": "python port test"}
+2021-07-25 23:50:48 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 39.100.104.214:8080
+2021-07-25 23:50:49 connectionpool.py[line:452] DEBUG http://39.100.104.214:8080 "POST /create/ HTTP/1.1" 200 None
+2021-07-25 23:50:49 Log.py[line:30] INFO 接口的响应结果是：{"data": [{"content": "python port test", "title": "python"}], "code": "00", "userid": 24}
+2021-07-25 23:50:49 Log.py[line:30] INFO 断言值为："code": "00"
+2021-07-25 23:50:49 Log.py[line:30] INFO 接口请求的耗时为131 毫秒
+2021-07-25 23:50:49 Log.py[line:30] INFO ------------------------------------------------------------------------------------------------------------------------------------------------------
+2021-07-25 23:50:49 Log.py[line:30] INFO 请求的接口地址是：http://39.100.104.214:8080/getBlogsOfUser/
+2021-07-25 23:50:49 Log.py[line:30] INFO 请求的数据是：{"userid": 24, "token": "81f442298d82858fd2d43232ee8bf9de"}
+2021-07-25 23:50:49 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 39.100.104.214:8080
+2021-07-25 23:50:49 connectionpool.py[line:452] DEBUG http://39.100.104.214:8080 "POST /getBlogsOfUser/ HTTP/1.1" 200 None
+2021-07-25 23:50:49 Log.py[line:30] INFO 接口的响应结果是：{"data": [{"update_time": null, "title": "python", "content": "python port test", "articleId": 14, "owner": 24, "posted_on": "2021-07-25 23:50:49"}], "code": "00", "userid": 24}
+2021-07-25 23:50:49 Log.py[line:30] INFO 断言值为："title": "(\w+)"
+2021-07-25 23:50:49 Log.py[line:30] INFO 接口请求的耗时为128 毫秒
+2021-07-25 23:50:49 Log.py[line:30] INFO 从响应中提取的变量名articleid，变量值为14
+2021-07-25 23:50:49 Log.py[line:30] INFO 生成全局变量名： global_vars['articleid']='14'
+2021-07-25 23:50:49 Log.py[line:30] INFO ------------------------------------------------------------------------------------------------------------------------------------------------------
+2021-07-25 23:50:49 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 39.100.104.214:8080
+2021-07-25 23:50:49 connectionpool.py[line:452] DEBUG http://39.100.104.214:8080 "GET /getBlogContent/14 HTTP/1.1" 200 None
+2021-07-25 23:50:49 Log.py[line:30] INFO 请求的接口地址是：http://39.100.104.214:8080/getBlogContent/14
+2021-07-25 23:50:49 Log.py[line:30] INFO 请求的数据是：14
+2021-07-25 23:50:49 Log.py[line:30] INFO 接口的响应结果是：{"code": "00", "data": [{"update_time": null, "title": "python", "content": "python port test", "articleId": 14, "owner": 24, "posted_on": "2021-07-25 23:50:49"}]}
+2021-07-25 23:50:49 Log.py[line:30] INFO 断言值为："content": "python port test"
+2021-07-25 23:50:49 Log.py[line:30] INFO 接口请求的耗时为132 毫秒
+2021-07-25 23:50:49 Log.py[line:30] INFO ------------------------------------------------------------------------------------------------------------------------------------------------------
+2021-07-25 23:50:49 Log.py[line:30] INFO 请求的接口地址是：http://39.100.104.214:8080/update/
+2021-07-25 23:50:49 Log.py[line:30] INFO 请求的数据是：{"userid": 24, "token": "81f442298d82858fd2d43232ee8bf9de", "articleId": 14, "title": "python", "content": "test test"}
+2021-07-25 23:50:49 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 39.100.104.214:8080
+2021-07-25 23:50:49 connectionpool.py[line:452] DEBUG http://39.100.104.214:8080 "PUT /update/ HTTP/1.1" 200 None
+2021-07-25 23:50:49 Log.py[line:30] INFO 接口的响应结果是：{"articleId": 14, "update_time": "2021-07-25 23:50:49", "code": "00", "userid": 24}
+2021-07-25 23:50:49 Log.py[line:30] INFO 断言值为："update_time": "2021
+2021-07-25 23:50:49 Log.py[line:30] INFO 接口请求的耗时为116 毫秒
+2021-07-25 23:50:49 Log.py[line:30] INFO ------------------------------------------------------------------------------------------------------------------------------------------------------
+2021-07-25 23:50:49 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 39.100.104.214:8080
+2021-07-25 23:50:49 connectionpool.py[line:452] DEBUG http://39.100.104.214:8080 "GET /getBlogContent/14 HTTP/1.1" 200 None
+2021-07-25 23:50:49 Log.py[line:30] INFO 请求的接口地址是：http://39.100.104.214:8080/getBlogContent/14
+2021-07-25 23:50:49 Log.py[line:30] INFO 请求的数据是：14
+2021-07-25 23:50:49 Log.py[line:30] INFO 接口的响应结果是：{"code": "00", "data": [{"update_time": "2021-07-25 23:50:49", "title": "python", "content": "test test", "articleId": 14, "owner": 24, "posted_on": "2021-07-25 23:50:49"}]}
+2021-07-25 23:50:49 Log.py[line:30] INFO 断言值为："content": "test test"
+2021-07-25 23:50:49 Log.py[line:30] INFO 接口请求的耗时为136 毫秒
+2021-07-25 23:50:49 Log.py[line:30] INFO ------------------------------------------------------------------------------------------------------------------------------------------------------
+2021-07-25 23:50:49 Log.py[line:30] INFO 请求的接口地址是：http://39.100.104.214:8080/delete/
+2021-07-25 23:50:49 Log.py[line:30] INFO 请求的数据是：{"userid": 24, "token": "81f442298d82858fd2d43232ee8bf9de", "articleId": [14]}
+2021-07-25 23:50:49 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 39.100.104.214:8080
+2021-07-25 23:50:49 connectionpool.py[line:452] DEBUG http://39.100.104.214:8080 "POST /delete/ HTTP/1.1" 200 None
+2021-07-25 23:50:49 Log.py[line:30] INFO 接口的响应结果是：{"articleId": [14], "code": "00", "userid": 24}
+2021-07-25 23:50:49 Log.py[line:30] INFO 断言值为："code": "00"
+2021-07-25 23:50:49 Log.py[line:30] INFO 接口请求的耗时为154 毫秒
+2021-07-25 23:50:49 Log.py[line:30] INFO ------------------------------------------------------------------------------------------------------------------------------------------------------
+2021-07-25 23:50:49 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 39.100.104.214:8080
+2021-07-25 23:50:49 connectionpool.py[line:452] DEBUG http://39.100.104.214:8080 "GET /getBlogContent/14 HTTP/1.1" 200 None
+2021-07-25 23:50:49 Log.py[line:30] INFO 请求的接口地址是：http://39.100.104.214:8080/getBlogContent/14
+2021-07-25 23:50:49 Log.py[line:30] INFO 请求的数据是：14
+2021-07-25 23:50:49 Log.py[line:30] INFO 接口的响应结果是：{"code": "03", "articleId": "14"}
+2021-07-25 23:50:49 Log.py[line:30] INFO 断言值为：{"code": "03"
+2021-07-25 23:50:49 Log.py[line:30] INFO 接口请求的耗时为116 毫秒
+2021-07-25 23:50:49 Log.py[line:30] INFO ------------------------------------------------------------------------------------------------------------------------------------------------------
+2021-07-25 23:50:49 Log.py[line:30] INFO **************************************************
+2021-07-25 23:50:49 Log.py[line:30] INFO 设定的测试用例sheet名称为：注册登录
+2021-07-25 23:50:49 Log.py[line:30] INFO 全局唯一数当前生成的值是：114
+2021-07-25 23:50:49 Log.py[line:30] INFO 请求的接口地址是：http://39.100.104.214:8080/register/
+2021-07-25 23:50:49 Log.py[line:30] INFO 请求的数据是：{"username": "testman114", "password": "123456789abc", "email": "sed@qq.com"}
+2021-07-25 23:50:49 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 39.100.104.214:8080
+2021-07-25 23:50:50 connectionpool.py[line:452] DEBUG http://39.100.104.214:8080 "POST /register/ HTTP/1.1" 200 None
+2021-07-25 23:50:50 Log.py[line:30] INFO 接口的响应结果是：{"code": "00", "userid": 25}
+2021-07-25 23:50:50 Log.py[line:30] INFO 断言值为："code": "00"
+2021-07-25 23:50:50 Log.py[line:30] INFO 接口请求的耗时为164 毫秒
+2021-07-25 23:50:50 Log.py[line:30] INFO 从响应中提取的变量名userid，变量值为25
+2021-07-25 23:50:50 Log.py[line:30] INFO 生成全局变量名： global_vars['userid']='25'
+2021-07-25 23:50:50 Log.py[line:30] INFO ------------------------------------------------------------------------------------------------------------------------------------------------------
+2021-07-25 23:50:50 Log.py[line:30] INFO 请求的接口地址是：http://39.100.104.214:8080/login/
+2021-07-25 23:50:50 Log.py[line:30] INFO 请求的数据是：{"username": "testman114", "password": "d266f2f31cf903c870027659030e967e"}
+2021-07-25 23:50:50 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 39.100.104.214:8080
+2021-07-25 23:50:50 connectionpool.py[line:452] DEBUG http://39.100.104.214:8080 "POST /login/ HTTP/1.1" 200 None
+2021-07-25 23:50:50 Log.py[line:30] INFO 接口的响应结果是：{"token": "48cce9080ef81d69ba8abd84fe19f0b5", "code": "00", "userid": 25, "login_time": "2021-07-25 23:50:50"}
+2021-07-25 23:50:50 Log.py[line:30] INFO 断言值为：token
+2021-07-25 23:50:50 Log.py[line:30] INFO 接口请求的耗时为168 毫秒
+2021-07-25 23:50:50 Log.py[line:30] INFO 从响应中提取的变量名token，变量值为48cce9080ef81d69ba8abd84fe19f0b5
+2021-07-25 23:50:50 Log.py[line:30] INFO 生成全局变量名： global_vars['token']='48cce9080ef81d69ba8abd84fe19f0b5'
+2021-07-25 23:50:50 Log.py[line:30] INFO ------------------------------------------------------------------------------------------------------------------------------------------------------
+2021-07-25 23:50:50 Log.py[line:30] INFO 请求的接口地址是：http://39.100.104.214:8080/create/
+2021-07-25 23:50:50 Log.py[line:30] INFO 请求的数据是：{"userid": 25, "token": "48cce9080ef81d69ba8abd84fe19f0b5", "title": "python", "content": "python port test"}
+2021-07-25 23:50:50 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 39.100.104.214:8080
+2021-07-25 23:50:50 connectionpool.py[line:452] DEBUG http://39.100.104.214:8080 "POST /create/ HTTP/1.1" 200 None
+2021-07-25 23:50:50 Log.py[line:30] INFO 接口的响应结果是：{"data": [{"content": "python port test", "title": "python"}], "code": "00", "userid": 25}
+2021-07-25 23:50:50 Log.py[line:30] INFO 断言值为："code": "00"
+2021-07-25 23:50:50 Log.py[line:30] INFO 接口请求的耗时为146 毫秒
+2021-07-25 23:50:50 Log.py[line:30] INFO ------------------------------------------------------------------------------------------------------------------------------------------------------
+2021-07-25 23:50:50 Log.py[line:30] INFO **************************************************
